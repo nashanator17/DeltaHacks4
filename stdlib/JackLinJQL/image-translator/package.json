@@ -1,0 +1,21 @@
+{
+  "name": "image-translator",
+  "version": "0.0.0",
+  "description": "",
+  "author": "JackLinJQL <jack.lin.jql@gmail.com>",
+  "main": "functions/__main__.js",
+  "dependencies": {
+    "ocr-space-api": "^1.0.1"
+  },
+  "private": true,
+  "stdlib": {
+    "build": "faaslang",
+    "name": "JackLinJQL/image-translator",
+    "timeout": 10000,
+    "publish": true,
+    "personalize": {
+      "keys": [],
+      "user": []
+    }
+  }
+}
